@@ -1,0 +1,49 @@
+#contactPage{
+    margin: 0 auto;
+    min-height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 60rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0 1rem;
+    margin-bottom: 3rem;
+
+}
+
+.contactPageTitle{
+    font-size: 3rem;
+    /* font-weight: 600;
+    padding-top: 3rem; */
+    margin-bottom: 1rem 0;
+    color: #68A52F;
+}
+.contactDesc{
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.contactIcons{
+    display: flex;
+    align-items: center;
+    /* width: 150px; */
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactIcon{
+    object-fit: cover;
+    width: 3rem;
+    height: 3rem;
+    margin: 0 0.75;
+    margin: auto;
+    /* padding: 1rem; */
+}
+
+#connectSection{
+    padding: 0.5rem;
+    width: 18rem;
+}
+
